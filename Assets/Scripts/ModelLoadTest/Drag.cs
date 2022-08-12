@@ -10,6 +10,7 @@ public class Drag : MonoBehaviour
     private bool isdrage = false;
     void Start()
     {
+    
     }
     void Update()
     {
