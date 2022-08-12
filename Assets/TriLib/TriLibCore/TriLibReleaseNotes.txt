@@ -1,0 +1,18 @@
+﻿2.1.7
+Changelog:
+-Fixed AssetDownloader.CreateWebRequest GET/DELETE/HEAD parameters bug.
+-Fixed AssetLoaderZip error redirection bug.
+-Fixed IL2CPP compilation issues.
+-Fixed Apple Silicon StandaloneFileBrowser issues.
+-Fixed ReadEnabled Asset Loader Option implementation.
+-Fixed FBX vertex range issues.
+-Fixed FBX animation tangents.
+-Updated AssetViewer.
+-Added Dispatcher.DontDestroyOnLoad property. Turn on this property to prevent the Dispatcher instance from being destroyed when a new level is loaded.
+-Added the CustomData field to the AssetUnloader class. This field will have the same value as the CustomData field from the AssetLoaderContext used to load the model.
+-Added the StlReader.LoadWithYUp static field. Turn on this field to load your model with the Y-axis pointing up.
+-Added TRILIB_ENABLE_WEBGL_THREADS compiler directive. Enable this on the Edit->Project Settings->TriLib menu. Enabling this will enable threaded loading in WebGL platforms.
+-Added LoadPointClouds Asset Loader Option. Turn on this field to load the model as a Point Cloud (PLY and OBJ only).
+-Added Assembly Definition Files. Just extract the AssemblyDefinitions.zip contents into your Assets folder.
+-Now Normals/Tangent importing is controled by the ImportNormals/ImportTangents GenerateNormals/GenerateTangents Asset Loader Options.
+-Major refactoring.

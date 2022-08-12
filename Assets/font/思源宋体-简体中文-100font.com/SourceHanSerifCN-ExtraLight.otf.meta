@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: aa09f312dcb90d649b1c46837ea7463d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Source Han Serif CN
+  fontNames:
+  - Source Han Serif CN
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 53897555d0b83934ca257e441c01f734, type: 3}
+  - {fileID: 12800000, guid: 0500d4f68c5a5dd40bb0528ef92e3f5d, type: 3}
+  - {fileID: 12800000, guid: 095281b8c2e453a4693383fb99ffe787, type: 3}
+  - {fileID: 12800000, guid: 6110598c201a4f14089e83fedce222e1, type: 3}
+  - {fileID: 12800000, guid: d9fa365e78c361142abe0faf452bb542, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
